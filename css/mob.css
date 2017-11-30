@@ -1,0 +1,88 @@
+body,html{
+	height:100%;
+	padding:0px;
+	margin:0px;
+	font-family:Purista;
+}
+.a,.b,.c{
+	background-image:url("../img/fondo.png");
+}
+.a,.b,.c{
+	display:inline-block;
+	width:33.33%;
+	height:100%;
+	float:left;
+}
+.d{
+	height:20%;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	z-index:0;
+}
+
+#nave{
+	text-align:center;
+	position:fixed;
+	top:75%;
+	width:100%;
+	height:20%;
+	z-index:1;
+}
+#nave img{
+	height:80%;
+}
+
+.d{
+	background-image:url("../img/luna.png");
+}
+#cpanel,#menu{
+	background-color:#008BFF;
+	opacity:0.8;
+    border:2px solid #00D2FF;
+}
+#cpanel{
+	position:fixed;
+	top:5%;
+	left:1%;
+	width:130px;
+	height:auto;
+	padding:1px;
+}
+#menu{
+	position:fixed;
+	top:5%;
+	right:1%;
+	width:130;
+	height: auto;
+	padding:1px;
+	text-align: right;
+}
+li{
+	padding:2px;
+}
+ul{
+	color:white;
+	font-size:14px;
+	font-family:Purista;
+	list-style:none;
+}
+.Instrucciones{
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	display:none;
+	z-index:1;
+}
+
+.Acerca{
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	display:none;
+	z-index:1;
+}
